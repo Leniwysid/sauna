@@ -13,13 +13,13 @@ function App() {
     <>
       <div className="h-screen grid grid-cols-2">
         <div className="w-full h-screen relative">
-          {/* <video
+          <video
             className="w-full h-screen object-cover"
             src={vid}
             autoPlay
             loop
             muted
-          /> */}
+          />
         </div>
         <div className="grid grid-cols-2 row-span-2 ">
           <button className="relative">
